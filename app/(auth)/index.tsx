@@ -38,9 +38,9 @@ export default function App() {
 
       <View style={styles.signupView}>
         <Text style={styles.signupText}>I already have an account</Text>
-        <View style={styles.signupButton}>
+        <TouchableOpacity style={styles.signupButton} onPress={()=>{router.replace("/(auth)/login")}}>
           <Text style={styles.signupButtonText}>➜</Text>
-        </View>
+        </TouchableOpacity>
       </View>
 
 
@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
     textAlignVertical:"center"
   },
   signupButton:{
-    backgroundColor:"#004CFF",
+    backgroundColor:"#FF5790",
     height:30,
     width:30,
     borderRadius:15,

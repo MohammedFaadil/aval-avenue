@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 import {
-    CodeField,
-    useBlurOnFulfill,
-    useClearByFocusCell
+  CodeField,
+  useBlurOnFulfill,
+  useClearByFocusCell
 } from "react-native-confirmation-code-field";
 
 const CELL_COUNT = 8;   // 👈 8 characters
@@ -44,6 +44,7 @@ const passwordScreen = () => {
         <View style={styles.profileCircle}>
             <Image source={require("../../assets/profilePics/romina.png")} style={styles.profPic}/>
         </View>
+
         <Text style={styles.title}>Hello, Romina</Text>
         <Text style={styles.pwTitle}>Type your password</Text>
 
@@ -61,7 +62,7 @@ const passwordScreen = () => {
                     // Determine background color
                     let bgColor = "#E5EBFC"; // default
                     if (index < value.length) {
-                    bgColor = "#004BFE"; // dark color while typing
+                    bgColor = "#FF5790"; // dark color while typing
                     
                     }
                     if (status === "error") {
@@ -69,6 +70,10 @@ const passwordScreen = () => {
                     }
                     if (status === "success") {
                     bgColor = "#7edb8dff"; // full green if success
+                     setTimeout(() => {
+                          router.replace("/(auth)");
+                      }, 800);
+                                    
                     }
 
                     return (
@@ -104,7 +109,7 @@ const styles = StyleSheet.create({
         backgroundColor:"#fff",
         flex:1,
         // justifyContent:"center",
-        alignItems:"center"
+        alignItems:"center",
     },
      blob:{
     position: "absolute",
@@ -153,6 +158,7 @@ const styles = StyleSheet.create({
         fontFamily:"Raleway-Medium",
         fontSize:28,
         fontWeight:"700",
+        zIndex:3
         
     },
     pwTitle:{

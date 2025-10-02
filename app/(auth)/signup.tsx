@@ -18,9 +18,9 @@ const signUp = () => {
         <Image source={require("../../assets/bubbles/signup/uploadImage.png")} style={styles.uploadImage} />
 
      <View style={styles.infoContainer}>
-        <TextInput style={styles.inputBox} placeholder='Email' placeholderTextColor={"#D2D2D2"}/>
-        <TextInput style={styles.inputBox} placeholder='Password' placeholderTextColor={"#D2D2D2"} secureTextEntry={true} />
-        <TextInput style={styles.inputBox} placeholder='Your number' placeholderTextColor={"#D2D2D2"} />
+        <TextInput style={styles.inputBox} placeholder='Email' placeholderTextColor={"#9b9999ff"}/>
+        <TextInput style={styles.inputBox} placeholder='Password' placeholderTextColor={"#9b9999ff"} secureTextEntry={true} />
+        <TextInput style={styles.inputBox} placeholder='Your number' placeholderTextColor={"#9b9999ff"} />
     </View>
 
 
@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
 
     width:"80%",
     height:52.5,
-    backgroundColor:"#F8F8F8",
+    backgroundColor:"#ebeaeaff",
     borderRadius:60,
     padding:5,
     paddingLeft:20

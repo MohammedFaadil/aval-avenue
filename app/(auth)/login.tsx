@@ -25,7 +25,7 @@ const login = () => {
       }} >
         <Text style={styles.nextTxt}>Next</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={{marginTop:20}}>
+      <TouchableOpacity style={{marginTop:20}} onPress={()=>{router.replace("/(auth)")}}>
         <Text style={styles.cancelTxt}>Cancel</Text>
       </TouchableOpacity>
       </View>
