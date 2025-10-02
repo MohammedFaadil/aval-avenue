@@ -71,7 +71,7 @@ const passwordScreen = () => {
                     if (status === "success") {
                     bgColor = "#7edb8dff"; // full green if success
                      setTimeout(() => {
-                          router.replace("/(auth)");
+                          router.replace("/(auth)/onboarding");
                       }, 800);
                                     
                     }

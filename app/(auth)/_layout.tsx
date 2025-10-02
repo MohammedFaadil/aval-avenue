@@ -8,13 +8,14 @@ export default function AuthLayout() {
         headerShown: false, // hide default headers
       }}
     >
-        <Stack.Screen name="index" />
+      <Stack.Screen name="index" />
       <Stack.Screen name="login" />
       <Stack.Screen name="passwordScreen" />
-      <Stack.Screen name="forgot-password" />
+      <Stack.Screen name="passwordRecoveryCodeScreen" />
       <Stack.Screen name="passwordRecoveryScreen" />
       <Stack.Screen name="setPassword" />
       <Stack.Screen name="signup" />
+      <Stack.Screen name="onboarding" />
     </Stack>
   );
 }
