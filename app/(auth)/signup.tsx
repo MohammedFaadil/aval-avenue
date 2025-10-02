@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
   title:{
     fontSize:50,
     fontFamily:"Raleway-Medium",
-    fontWeight:700,
+    fontWeight:"700",
     marginTop:122,
     marginLeft:30,
     zIndex:3
@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
     fontSize:22,
     textAlign:"center",
     color:"white",
-    fontWeight:300
+    fontWeight:"300"
   },
   footer:{
     alignItems:"center",
@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
   cancelTxt:{
     color:"#202020",
     fontFamily:"NunitoSans",
-    fontWeight:300,
+    fontWeight:"300",
     fontSize:15
   }
 })

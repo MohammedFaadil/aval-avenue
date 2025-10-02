@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
   title:{
     fontFamily:"Raleway-Black",
     fontSize:52,
-    fontWeight:"light",
+    fontWeight:"600",
     marginTop:20,
 
   },
@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
     fontSize:22,
     textAlign:"center",
     color:"white",
-    fontWeight:300
+    fontWeight:"300"
 
   },
   signupView:{
@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
   },
   signupText:{
     fontFamily:"NunitoSans",
-    fontWeight:600,
+    fontWeight:"600",
     fontSize:15,
     textAlignVertical:"center"
   },
