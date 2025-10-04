@@ -1,0 +1,18 @@
+[
+    {
+    "Title": "Classic Blue Jeans",
+    "Price": "$39.99",
+    "Color":"Pink",
+    "Quantity":2,
+    "Size":"M",
+    "Image": "2"
+  },
+  {
+    "Title": "Black Leather Jacket",
+    "Price": "$120.00",
+    "Color":"Blue",
+    "Quantity":1,
+    "Size":"L",
+    "Image": "3"
+  }
+]

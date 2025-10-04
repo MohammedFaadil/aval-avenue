@@ -1,0 +1,32 @@
+[
+  {
+    "Title": "Elegant Red Dress",
+    "Price": "$49.99",
+    "DateWhenViewed": "2025-09-30",
+    "Image": "1"
+  },
+  {
+    "Title": "Classic Blue Jeans",
+    "Price": "$39.99",
+    "DateWhenViewed": "2025-09-28",
+    "Image": "2"
+  },
+  {
+    "Title": "Black Leather Jacket",
+    "Price": "$120.00",
+    "DateWhenViewed": "2025-09-27",
+    "Image": "3"
+  },
+  {
+    "Title": "Casual White Sneakers",
+    "Price": "$59.99",
+    "DateWhenViewed": "2025-09-25",
+    "Image": "4"
+  },
+  {
+    "Title": "Floral Silk Scarf",
+    "Price": "$19.99",
+    "DateWhenViewed": "2025-09-24",
+    "Image": "5"
+  }
+]

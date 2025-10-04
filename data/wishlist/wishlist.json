@@ -1,0 +1,72 @@
+[
+  {
+    "Image": "1",
+    "Title": "Elegant Red Dress",
+    "Cost": "$49.99",
+    "Color": "Red",
+    "Size": "M"
+  },
+  {
+    "Image": "2",
+    "Title": "Classic Blue Jeans",
+    "Cost": "$39.99",
+    "Color": "Blue",
+    "Size": "L"
+  },
+  {
+    "Image": "3",
+    "Title": "Black Leather Jacket",
+    "Cost": "$120.00",
+    "Color": "Black",
+    "Size": "XL"
+  },
+  {
+    "Image": "4",
+    "Title": "Casual White Sneakers",
+    "Cost": "$59.99",
+    "Color": "White",
+    "Size": "42"
+  },
+  {
+    "Image": "5",
+    "Title": "Floral Silk Scarf",
+    "Cost": "$19.99",
+    "Color": "Multicolor",
+    "Size": "M"
+  },
+  {
+    "Image": "6",
+    "Title": "Soft Cotton T-Shirt",
+    "Cost": "$15.00",
+    "Color": "Gray",
+    "Size": "M"
+  },
+  {
+    "Image": "7",
+    "Title": "Vintage Denim Jacket",
+    "Cost": "$75.50",
+    "Color": "Blue",
+    "Size": "L"
+  },
+  {
+    "Image": "8",
+    "Title": "Stylish Black Boots",
+    "Cost": "$85.00",
+    "Color": "Black",
+    "Size": "40"
+  },
+  {
+    "Image": "9",
+    "Title": "Wide Brim Summer Hat",
+    "Cost": "$22.99",
+    "Color": "Beige",
+    "Size": "One Size"
+  },
+  {
+    "Image": "10",
+    "Title": "Cozy Grey Sweater",
+    "Cost": "$40.00",
+    "Color": "Grey",
+    "Size": "M"
+  }
+]
