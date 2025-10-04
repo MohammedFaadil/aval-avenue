@@ -1,9 +1,8 @@
 import HeaderBar from '@/components/HeaderBar';
+import Recents from '@/components/Recents';
 import React from 'react';
 import { FlatList, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import recentsData from "../../../data/wishlist/recents.json";
 import wishlistData from "../../../data/wishlist/wishlist.json";
-
 
 const wishlist = () => {
   const imageMap: Record<string, any> = {
@@ -35,8 +34,8 @@ const wishlist = () => {
   return (
     <View style={styles.container}>
       <HeaderBar title="Wishlist" />
-      <View style={styles.recents}>
-          <View style={styles.recentsRow}>
+      
+          {/* <View style={styles.recentsRow}>
             <Text style={styles.recentsTxt}>Recently viewed</Text>
             <TouchableOpacity style={styles.recentBtn}>
               <Text style={{  color:"#fff", fontSize:14}}>➜</Text>
@@ -54,7 +53,8 @@ const wishlist = () => {
                   </TouchableOpacity>
                 )}
               />
-          </View>
+          </View> */}
+          <Recents />
           <View style={styles.wishlist}>
                 <FlatList
                 data={wishlistData}
@@ -85,7 +85,7 @@ const wishlist = () => {
               />
           </View>
       </View>
-    </View>
+
   )
 }
 
@@ -97,9 +97,7 @@ const styles = StyleSheet.create({
     flex:1,
     paddingHorizontal:20
   },
-  recents:{
-    
-  },
+
   recentsRow:{
     flexDirection:"row",
     justifyContent:"space-between"

@@ -41,8 +41,8 @@ export default function App() {
         <TouchableOpacity style={styles.signupButton} onPress={()=>{router.replace("/(auth)/login")}}>
           <Text style={styles.signupButtonText}>➜</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.signupButton} onPress={()=>{router.replace("/(tabs)/wishlist")}}>
-          <Text style={styles.signupButtonText}>➜</Text>
+        <TouchableOpacity style={styles.signupButton} onPress={()=>{router.replace("/(tabs)")}}>
+          <Text style={styles.signupButtonText}>Dev</Text>
         </TouchableOpacity>
       </View>
 
